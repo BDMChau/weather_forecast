@@ -40,22 +40,22 @@ main{
 
 .search .search_input{
     display: block;
-    width: 50%;
+    width: 60%;
     background: none;
     border: none;
     margin: auto;
     text-align: left;
-    background-color: #d9deffa3;
+    background-color: #d9deff70;
     padding: 15px 10px 15px 10px;
-    border-radius: 3px 3px 20px 20px;
+    border-radius: 10px;
     font-size: 20px;
-    box-shadow: 0px 7px 5px 0px #00000054; 
+    box-shadow: 0px 7px 5px 0px #00000054;
     transition: 0.3s ease-in-out;
 }
 
 .search_input:focus{
     outline: none;
-    background-color: #ffffffb8;
+    background-color: #d9deffbd;
 }
 
 .location .location_name{
